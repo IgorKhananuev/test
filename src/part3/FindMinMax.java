@@ -9,8 +9,8 @@ public class FindMinMax {
     public static void main(String[] args) {
         int[] array = new int[10];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 100);
-            System.out.println(array[i]);
+            array[i] = (int) (Math.random() * 1000);
+            System.out.println("index " + i + " : element - " + array[i]);
         }
         System.out.println("****");
         int min = array[0];

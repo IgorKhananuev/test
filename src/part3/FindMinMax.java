@@ -12,7 +12,7 @@ public class FindMinMax {
             array[i] = (int) (Math.random() * 1000);
             System.out.println("index " + i + " : element - " + array[i]);
         }
-        System.out.println("****");
+        System.out.println("*****");
         int min = array[0];
         int max = array[0];
         int indexOfMax = 0;
